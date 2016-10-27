@@ -2,6 +2,20 @@ package hackerrank;
 
 import java.util.Scanner;
 
+/**
+ Consider a zero-indexed matrix with  rows and  columns,
+  where each row is filled gradually. Given the first row of the matrix, you can generate the elements in the subsequent rows using the following formula:
+ Each row is generated one by one, from the second row through the last row. Given the first row of the matrix, find and print the elements
+  of the last row as a single line of space-separated integers.
+  
+  Sample Input
+
+4 2
+6 7 1 3
+Sample Output
+
+1 6 2 5
+ * */
 public class XorMatrix {
 
 	@SuppressWarnings("resource")
