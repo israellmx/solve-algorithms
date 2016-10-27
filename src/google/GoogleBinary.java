@@ -4,6 +4,21 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
+/**
+ CREATE ALL THE COMBINATIONS OF BITES
+ FROM A NUMBER THAT IS THE INPUT
+ INPUT:
+ 3
+OUTPUT:
+000
+001
+010
+011
+100
+101
+110
+111
+ * */
 public class GoogleBinary {
 
 	@SuppressWarnings("resource")

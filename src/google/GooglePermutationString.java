@@ -1,10 +1,21 @@
 package google;
 
+/**
+given 2 strings A and B. generate all possible solutions when B is merged in A. 
+Ex: A = "hey" 
+B: "sam" 
+then solutions are : 
+
+heysam,hseaym,hesaym,sahemy etc. 
+
+notice that order should be the same for both of strings while merging. 
+ */
+
 public class GooglePermutationString {
 
 	public static void main(String[] args) {
 		
-		String stringOne = "hey",  strTwo = "sa"; 
+		String stringOne = "hey",  strTwo = "sam"; 
 		
 		solution( stringOne,  strTwo);
 		StringBuilder out1=new StringBuilder();

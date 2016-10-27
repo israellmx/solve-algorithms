@@ -7,6 +7,24 @@ import java.util.Map;
 
 import google.DAG.Node;
 
+/**
+Given a specific type of DAG that forms a pyramid 
+(the links have up-down direction),
+ in which the node labels are integer, 
+ find the path that has the maximum sum of node values. 
+ what is the time/space complexity of the algorithm? 
+
+e.g: 
+3 
+/ \ 
+9 4 
+/ \ / \ 
+1 8 2 
+/ \ / \ / \ 
+4 5 8 2 
+answer: <3,9,8,8>, sum = 3+9+8+8=28
+ * */
+
 public class GoogleDagMaximunSum {
 
 	public static void main(String[] args) {

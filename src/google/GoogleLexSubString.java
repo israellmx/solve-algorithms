@@ -1,6 +1,10 @@
 package google;
 
-
+/**
+ Given a string S, print the longest substring P such that P > S lexicographically. 
+You may assume that such substring exists.
+  *
+  */
 public class GoogleLexSubString {
 
 	public static void main(String[] args) {

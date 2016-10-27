@@ -1,5 +1,10 @@
 package google;
 
+/**
+Given 2 string S1, S2, print them in the correct order lexicographically. 
+
+ *
+ */
 public class GoogleLexicography {
 	
 	

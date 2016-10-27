@@ -3,6 +3,11 @@ package google;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
+/**
+FIND THE SHORTEST PATH OF A ORIGIN TO DESTINATION
+ ORIGIN A, FIND C
+ shortestPath {ABC=3, ADC=3}
+  */
 public class GoogleShortestPaths {
 
 	public static void main(String[] args) {
