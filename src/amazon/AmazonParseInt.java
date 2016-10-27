@@ -1,5 +1,8 @@
 package amazon;
 
+/**
+ parse an integer of one String
+ * */
 public class AmazonParseInt {
 
 	public static void main(String[] args) {

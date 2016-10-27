@@ -6,6 +6,18 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ WE HAVE THE INPUT AS THE NUMBER OF WORDS.
+ WE NEED TO PRINT ALL THE POSSIBLES VALUES IN 
+ THE FIRST OUTPUT ALL THE STRINGS, IN THE SECOND
+ ALL OF THEM MINUS THE FIRST ONE AND SO ON 
+ INPUT:
+ RED
+WHITE
+BLACK
+OUTPUT:
+  integers=RED  WHITE  BLACK integers=WHITE  BLACK integers=BLACK
+ * */
 public class AmazonStringDiferent {
 
 	@SuppressWarnings("resource")

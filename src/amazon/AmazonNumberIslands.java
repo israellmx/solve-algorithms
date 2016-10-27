@@ -7,6 +7,23 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Stack;
 
+/**
+ A group of connected 1s forms an island. For example, the below matrix 
+ contains 5 islands
+
+	                {1, 1, 0, 0, 0},
+                        {0, 1, 0, 0, 1},
+                        {1, 0, 0, 1, 1},
+                        {0, 0, 0, 0, 0},
+                        {1, 0, 1, 0, 1}
+A cell in 2D matrix can be connected to 8 neighbors.
+ So, unlike standard DFS(), where we recursively call for 
+ all adjacent vertices, here we can recursive call for 8 neighbors only. 
+ We keep track of the visited 1s so that they are not visited again. 
+ Output:
+
+Number of islands is: 5
+ * */
 public class AmazonNumberIslands {
 
 	public static void main(String[] args) {

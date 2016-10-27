@@ -1,5 +1,19 @@
 package amazon;
 
+
+/**
+ * Amazon Interview Question for SDE-2s
+ Write all jumbled number which is >0 && <N, 
+ where N is provided by the user. 
+A jumbled number is a number whose neighbour 
+digit (either left or right) max differ by 1 value. 
+
+e.g.: 
+8987 is a jumbled number. 
+13 is not a jumbled number. 
+123456 is a jumbled number. 
+287 is not jumbled number.
+ * */
 public class AmazonJumbledNumber {
 
 	public static void main(String[] args) {

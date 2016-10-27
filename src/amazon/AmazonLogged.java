@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
+/**
+ There are different users, in a set of users
+ return the 2 users with more logged register 
+ in the system
+ * */
 public class AmazonLogged {
 
 	public static void main(String[] args) {

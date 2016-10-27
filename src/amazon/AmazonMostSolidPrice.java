@@ -1,5 +1,25 @@
 package amazon;
 
+
+/**
+ Amazon Interview Question for Software Engineers
+ At regular interval, we are receiving data (Price,Quantity). 
+ We need to find Most Sold Price(MSP). 
+ Need to design the solution to print the current MSP
+  with total Qty of that price, every time a set of price
+   and its quantity sold is provided as input.
+
+
+Time       Price   Qty    MSP(Total Qty)
+11:01AM   $10.01   100     $10.01(100)
+11:03AM   $11.01   200     $11.01(200)
+11:04AM   $12.81   150     $11.01(200)
+11:06AM   $10.01   210     $10.01(310)
+11:07AM   $10.01   180     $10.01(490)
+11:08AM   $12.81   400     $12.81(550)
+11:09AM   $11.01   200     $12.81(550)
+  *
+  */
 public class AmazonMostSolidPrice {
 	
 	Data [] bucketsData = new Data[10];

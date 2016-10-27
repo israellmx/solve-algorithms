@@ -4,6 +4,17 @@ import java.util.ArrayList;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 
+
+/**
+ * Amazon Interview Question for Software Engineers
+ A car rental company which rents car by per hour basis 
+wants to know the time perio
+d for maximum number cars that are rented.
+ ie you are given the list of rental start time 
+ and return times of all rented cars in the day 
+ for all cars in a day find the maximum time 
+ period in which cars are on the road.
+ * **/
 public class AmazonCarMaxRental {
 
 	public static void main(String[] args) {

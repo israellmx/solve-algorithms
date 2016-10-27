@@ -6,6 +6,12 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * Amazon Interview Question for Software Engineers
+ Given a set of random strings, 
+ write a function that returns a set that groups all the anagrams together. 
+Ex: star, dog, car, rats, ars - > {(star, rats), (src,car), dog)
+ * */
 public class AmazonSetAnagrams {
 
 	NodeAnagram[] buckets = new NodeAnagram[8];

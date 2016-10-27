@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-
+/**
+ ONLY PRINT ALL THE ELEMENTS OF A MAP 
+ * */
 public class AmazonUniqueRows {
 	
 	Node[] buckets = new Node[2];
@@ -13,11 +15,9 @@ public class AmazonUniqueRows {
 	private static class Node {
 		
 		int value;
-		int key;
 		Node next = null;
 		
 		public Node (int value, int key){
-			this.key = key;
 			this.value = value;
 			
 		}

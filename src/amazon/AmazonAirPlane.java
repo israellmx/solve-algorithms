@@ -4,6 +4,16 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ Amazon Hacker Rank
+ in a airplane there are four directions valid L, R, U, D and delete
+ with a string of directions print the coordinates of the airplane.
+ If the input is not valid print (999, 999)
+ 
+ Example:
+ Input: 8U8U
+ Output: (0, 16)
+ * */
 public class AmazonAirPlane {
 
 	static final String FAILURE = "(999, 999)";
